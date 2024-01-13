@@ -1,3 +1,4 @@
 # factorial-of-number-js
  
-![factorial of number output](https://github.com/krupesh788/factorial-of-number-js/assets/71176180/1e095943-9f09-4531-8e60-09c9ca39d859)
+![Factorailnumber](https://github.com/krupesh788/Factorial-of-number-js/assets/71176180/4a77781f-44f7-4ac0-a901-7969b7f467f9)
+
