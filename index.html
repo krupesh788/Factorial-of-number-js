@@ -3,36 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="css/style.css">   
     <title>Document</title>
 </head>
 <body>
-    <h1>Factorial Calculator</h1>
+    <div class="container">
 
+        <h1>Factorial Calculator</h1>
+        
     Enter a non-negative integer:
     <input type="number" id="num">
 
-    <button onclick="fact()">Calculate Factorial</button>
+    <button class="btn" onclick="fact()">Calculate Factorial</button>
+
+    <br>
+    <br>
 
     <p id="result"></p>
-
-    <script>
-
-        function fact()
-
-        {
-
-            let num = parseInt(document.getElementById("num").value);
-
-            let factorial = 1;
-            for(let i=1;i<=num;i++)
-            {
-
-                factorial *= i;
-            }
-
-            document.getElementById("result").innerHTML = "The factorail of " + num + " is: " + factorial;
-        }
-    </script>
+    
+</div>
+    <script src="js/script.js"></script>
 
 </body>
 </html>
